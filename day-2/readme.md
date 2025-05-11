@@ -147,5 +147,5 @@ kubectl delete ns monitoring
 ```
 - **Delete Cluster & everything else**:
 ```bash
-eksctl delete cluster --name observability
+eksctl delete cluster --name observability --region us-east-1
 ```
